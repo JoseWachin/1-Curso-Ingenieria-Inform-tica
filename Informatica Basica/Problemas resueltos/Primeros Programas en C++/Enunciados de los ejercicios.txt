@@ -1,0 +1,209 @@
+1)Escriba un programa que solicite al usuario el año de su nacimiento y el año actual, y muestre por pantalla la edad del usuario:
+
+Año de nacimiento: 2000
+Año actual: 2024
+Su edad es 24 años.
+
+Año de nacimiento: 1986
+Año actual: 2024
+Su edad es 38 años.
+
+2) Escriba un programa que convierta de centímetros a pulgadas. Una pulgada es igual a 2.54 centímetros.
+
+Introduzca longitud: 45
+45 cm = 17.71 in
+
+Introduzca longitud: 13
+13 cm = 5.12 in
+
+
+3) Desarrolle en C++ un programa que solicite al usuario la hora actual del reloj y un número entero de horas H e indique como salida qué hora marcará el reloj dentro de H horas:
+
+Hora actual: 3
+Cantidad de horas: 5
+En 5 horas, el reloj marcará las 8
+
+Hora actual: 11
+Cantidad de horas: 43
+En 43 horas, el reloj marcará las 6
+
+4) Escriba un programa que calcule la media de cuatro valores introducidos por el usuario:
+
+Primer valor: 55
+Segundo valor: 71
+Tercer valor: 46
+Cuarto valor: 87
+La media es: 64.75
+
+5) Desarrolle en C++ un programa que reciba como entrada el radio de un círculo y entregue como salida su perímetro y su área:
+
+Introduzca el radio: 5
+Perímetro: 31.4
+Área: 78.5
+
+
+6) Desarrolle en C++ un programa que reciba como entrada las longitudes de los dos catetos de un triángulo rectángulo, y que calcule como salida la longitud de la hipotenusa del triángulo, dado por el teorema de Pitágoras. Necesitará para ello la función std::sqrt de la librería cmath.
+
+Introduzca cateto a: 7
+Introduzca cateto b: 5
+El valor de la hipotenusa es 8.60
+
+7) Se puede calcular el número de dígitos de un número entero N mediante la operación log10(N)+1, donde ⌊⋯⌋ representa el redondeo hacia abajo (floor en inglés). Escriba un programa que pida un valor entero al usuario y muestre por pantalla su número de dígitos, calculado usando el logaritmo en base 10. Investigue qué funciones de la librería cmath serían necesarias.
+
+Introduzca un número entero: 999
+El número de dígitos de 999 es 3
+
+Introduzca un número entero: 10000
+El número de dígitos de 10000 es 5
+
+8) Un polinomio de segundo grado viene dado por la fórmula f(x)=ax^2+bx+c. Escriba un programa en C++ que solicite al usuario los valores reales de a, b, c y x, y muestre por pantalla el resultado del cálculo de f(x). Por ejemplo:
+
+Valor de a: 2
+Valor de b: 3.7
+Valor de c: -0.5
+Valor de x: 100
+f(100) = 20369.5
+
+9) Un polinomio de segundo grado f(x)=ax^2+bx+c tiene dos raíces, esto es, dos valores de x que hacen f(x)=0. Estos valores se calculan como:
+
+x1= −b+√b^2−4ac /2a
+x2=−b−√b^2−4ac /2a
+
+Escriba un programa en C++ que solicite al usuario los valores reales de los coeficientes a, b y c de un polinomio de segundo grado y calcule a partir de ellos las raíces del mismo. Observe que si 4ac>b^2 no existen raíces reales. Compruebe qué ocurre si ejecuta su programa para un polinomio que no tenga raíces reales.
+
+10) La fórmula de Herón permite calcular el área A de un triángulo dadas las longitudes de sus lados a, b y c:
+
+A=√s(s−a)(s−b)(s−c). donde s=(a+b+c)/2
+
+Escriba un programa en C++ que solicite al usuario las longitudes de los lados de un triángulo y muestre por pantalla su área, calculada mediante la fórmula de Herón.
+
+11) sin^2(α)+cos^2(α)=1 es una igualdad trigonométrica fundamental. Escriba un programa en C++ que solicite al usuario un valor real de α y, usando las funciones sin y cos de la librería cmath, muestre por pantalla el resultado de sin2(α)+cos2(α). Debería observar que el resultado es aproximadamente 1.0 independientemente de qué valor tenga α.
+
+12) Escriba un programa en C++ que determine si el número entero introducido por el usuario es par o no.
+
+Introduzca un número: 4
+4 es par
+
+Introduzca un número: 3
+3 es impar
+
+13) Los tres lados de un triángulo deben satisfacer la desigualdad triangular: cada uno de los lados no puede ser más largo que la suma de los otros dos. Escriba un programa que reciba como entrada los tres lados de un triángulo e indique si éste es válido y, si lo es, qué tipo de triángulo es.
+
+Introduzca lado1: 4
+Introduzca lado2: 6
+Introduzca lado3: 1
+No es un triangulo valido
+
+Introduzca lado1: 37
+Introduzca lado2: 37
+Introduzca lado3: 37
+El triangulo es equilatero
+
+Introduzca lado1: 1
+Introduzca lado2: 2
+Introduzca lado3: 2
+El triangulo es isosceles
+
+Introduzca lado1: 3
+Introduzca lado2: 5
+Introduzca lado3: 4
+El triangulo es escaleno
+
+14) Escriba un programa que genere todas las potencias de 2, desde la 0-ésima hasta el exponente ingresado por el usuario:
+
+Introduzca un exponente: 10
+1 2 4 8 16 32 64 128 256 512 1024
+
+15) Escriba un programa que entregue como salida todos los divisores del número entero introducido:
+
+Introduzca un número: 10
+1 2 5 10
+
+16) Desarrolle en C++ un programa que imprima los N primeros términos de la secuencia de Fibonacci. Los primeros términos de la serie son: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, ...
+
+17) Escriba un programa que solicite al usuario un número entero de tres dígitos y escriba en pantalla el número con los dígitos en orden inverso.
+
+Introduzca un número: 345
+543
+
+Introduzca un número: 241
+142
+
+18) Escriba un programa en C++ que solicite al usuario un número entero de años, días, horas, minutos y segundos y calcule la cantidad total de segundos que estos representan. Por ejemplo, la entrada 20 4 200 50 1234 debería devolver la salida 631789834. Asuma por simplicidad que un año tiene exactamente 365 días. (P70955)
+
+19) Escriba un programa que haga lo contrario al anterior: recibiendo una cantidad entera de segundos, debe mostrar por pantalla el número de años, días, horas, minutos y segundos que ésta representa, de la forma más compacta posible (menos de 365 días, menos de 24 horas, menos 60 minutos y menos de 60 segundos). Por ejemplo 1e9 (1.000.000.000) segundos equivaldrían a 31 años, 259 días, 1 hora, 46 minutos y 40 segundos.
+
+20) Resuelva el problema P31761 de Jutge, que pide escribir un programa que calcule el producto de dos números naturales, teniendo en cuenta que los valores proporcionados pueden ser muy grandes. Si no logra dar con una solución que satisfaga todas las entradas, consulte los distintos tipos de datos básicos que ofrece C++.
+
+21) Desarrolle en C++ un programa que solicite al usuario el valor de un número natural N y calcule la suma de los N primeros números naturales (desde 1 hasta N, éste incluido).
+
+22) Se cuenta que el problema anterior (suma de los N primeros números naturales) fue planteado en su niñez a uno de los más grandes matemáticos de la historia, Carl Friedrich Gauss. En lugar de resolver el problema iterativamente, recorriendo los N números y acumulando el valor de la suma, el joven Gauss descubrió la ecuación de recurrencia que permite calcular la suma: S=N×(N+1)/2.
+
+Modifique el ejercicio anterior para que calcule el sumatorio mediante la ecuación antes descrita. ¿Cuál de las dos soluciones le parece mejor? ¿Por qué razón?
+
+23) Si se enumeran los números naturales menores que 10 que son múltiplos de 3 o 5 se obtiene 3, 5, 6 y 9. La suma de estos múltiplos es 23. Desarrolle en C++ un programa que calcule la suma de todos los múltiplos de 3 o 5 menores que 1000.
+
+24) Desarrolle en C++ un programa que calcule la suma de todos los términos de la secuencia de Fibonacci de valor par que sean menores que 1000.
+
+25) La secuencia de Collatz de un número entero se construye de la siguiente forma:
+
+si el número es par, se lo divide por dos;
+si es impar, se le multiplica tres y se le suma uno;
+la sucesión termina al llegar a uno.
+
+La conjetura de Collatz afirma que, a partir desde cualquier número, la secuencia siempre llegará a 1. A pesar de ser una afirmación a simple vista muy simple, no se ha podido demostrar si es cierta o no. Usando ordenadores, se ha verificado que la sucesión efectivamente llega a 1 partiendo desde cualquier número natural menor que 2^58.
+Desarrolle un programa que calcule la secuencia de Collatz de un número entero:
+
+n: 18
+18 9 28 14 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
+
+n: 19
+19 58 29 88 44 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
+
+n: 20
+20 10 5 16 8 4 2 1
+
+26) Una terna pitagórica es un conjunto de tres números enteros positivos, a,b y c, que cumplen la relación a^2+b^2=c^2 . Desarrolle un programa en C++ que solicite al usuario tres números enteros positivos e indique si se trata o no de una terna pitagórica. Asuma que los tres valores se danordenados de menor a mayor.
+
+Introduzca tres valores: 6 8 10
+6 8 10 es una terna pitagórica
+
+Introduzca tres valores: 4 6 19
+4 6 19 no es una terna pitagórica
+
+27) Un triángulo rectángulo entero (TRE) es un triángulo tal que las longitudes de sus lados forman una terna pitágorica. Se denotan por <a,b,c> , con a≤b≤c . Para construirlos, se tendrá en cuenta que:
+
+- Si a es impar, a=2k+1 forma un TRE con b=2k(k+1) y c=b+1
+
+- Si a es par, a=2k forma un TRE con b=k2−1 y c=k2+1
+
+Desarrolle un programa que solicite al usuario un valor entero positivo N y genere los TRE correspondientes a los primeros N números enteros. Preste especial atención a la primera línea de la secuencia.
+
+N: 15
+3 4 5
+5 12 13
+6 8 10
+7 24 25
+8 15 17
+9 40 41
+10 24 26
+11 60 61
+12 35 37
+13 84 85
+14 48 50
+15 112 113
+
+28) Escriba un programa que, dado un número natural, muestre por pantalla sus dígitos mayor y menor. Por ejemplo:
+
+Introduzca un número: 5
+El dígito menor de 5 es 5
+El dígito mayor de 5 es 5
+
+Introduzca un número: 2025
+El dígito menor de 2021 es 0
+El dígito mayor de 2021 es 5
+
+29) Una vez aprenda cómo hacerlo, modifique todos los ejercicios anteriores para que tomen su entrada desde la línea de comandos, en lugar de desde el teclado.
+
+30) Una vez aprenda cómo hacerlo, modifique todos los ejercicios anteriores para que tomen su entrada desde un fichero en lugar de hacerlo desde el teclado. Haga también que no escriban nada en pantalla, sino que vuelquen su resultado en otro fichero.
+
