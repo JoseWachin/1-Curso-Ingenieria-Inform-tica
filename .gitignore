@@ -1,0 +1,7 @@
+# Ignorar ejecutables y binarios de C++
+*.exe
+*.o
+*.out
+
+# Ignorar carpetas de configuraciones de VS Code (opcional)
+.vscode/
